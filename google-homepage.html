@@ -1,111 +1,146 @@
 <!DOCTYPE HTML>
 
 <html>
+
 <head>
-      <title>Google</title>
-      <style>
+  <title>Google</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
 
-       
-        
-        a {
-          text-decoration: none;
-          color:rgb(69, 69, 70)
-        }
-        a:hover {
-          text-decoration: underline;
-        }
-        nav {
-          font-family: Arial, Helvetica, sans-serif;
-          font-size: 13px;
-          display: flex;
-          justify-content: space-between;
-         }
+    }
 
-        .navbar {
-          margin: 15px;
-          padding-right: 
-         }
+    a {
+      text-decoration: none;
+      color: rgb(69, 69, 70)
+    }
 
-        
-        #profilepic {
-          border: 1px;
-          border-radius: 50%;        
-        }
-        #buttondiv {
-          text-align: center;
-          margin-top: 30px
-        }
-        button {
-          background:rgb(245, 245, 245);
-          border: 0px solid;
-          height: 40px;
-          margin: 0px 20px 20px 20px;
-          padding: 0 14px 0px 14px;
-          font-size: 14px;
-          font-family: Arial, Helvetica, sans-serif;
-          color:rgb(101, 107, 112);
-          display: absolute;          
-        }
-        button:hover {
-          box-shadow: 0px 1px 1px rgba(10,10,10,0.19);
-          border: 1px solid #b9b5b5
-        }      
-        #logo {
-          display: flex;
-          margin-left: auto;
-          margin-right: auto;
-          margin-top: 7%;          
-        }
-        input {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          margin-top: 20px;
-          padding: 11px 40px 11px 40px;
-          border: 1px solid;
-          width: 500px;
-          border-radius: 30px;
-          border-width: 1px;
-          border-color: lightgrey;
-          font-size: 16px
-        }
-        input:hover {
-          box-shadow: 0px 1px 5px rgba(10,10,10,0.19);
-        }
+    a:hover {
+      text-decoration: underline;
+    }
 
-      </style>
+    nav {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+      margin: 10px;
+    }
+
+    .navbar {
+      margin: 10px;
+      padding: ;
+    }
+
+
+    #profilepic {
+      border: 1px;
+      border-radius: 50%;
+    }
+
+    #buttondiv {
+      text-align: center;
+      margin-top: 30px
+    }
+
+    button {
+      background: rgb(245, 245, 245);
+      border: 0px solid;
+      height: 37px;
+      margin: 0px 10px 20px 10px;
+      padding: 0 18px 0px 18px;
+      font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(101, 107, 112);
+      display: absolute;
+    }
+
+    button:hover {
+      box-shadow: 0px 1px 1px rgba(10, 10, 10, 0.19);
+      border: 1px solid #d3d0d0;
+      color: rgb(24, 23, 23)
+    }
+
+    #logo {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 7%;
+
+
+    }
+
+    input {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      padding: 11px 40px 11px 40px;
+      border: 1px solid;
+      width: 500px;
+      border-radius: 30px;
+      border-width: 1px;
+      border-color: lightgrey;
+      font-size: 16px
+    }
+
+    input:hover {
+      box-shadow: 0px 1px 5px rgba(10, 10, 10, 0.19);
+    }
+
+    footer {
+      background: rgb(240, 238, 238);
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      border: 1px solid lightgray;
+      font-size: 15px;
+      display: flex;
+      justify-content: space-between;
+
+    }
+  </style>
 </head>
 
 
 
 <body>
   <nav>
-    <nav> 
-      <a  class="navbar" href="#">About</a>
-      <a  class="navbar" href="#">Store</a>
+    <nav>
+      <a class="navbar" href="#">About</a>
+      <a class="navbar" href="#">Store</a>
     </nav>
-
     <nav>
       <a class="navbar" href="#">Gmail</a>
       <a class="navbar" href="#">Images</a>
       <a href="#"><img id="profilepic" src="images/unnamed.png"></a>
     </nav>
-      
-    
   </nav>
 
-<main>
-  
-  <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-  <form class="search">
-    <input type="text">
-    <div id="buttondiv">
-      <button type="submit">Google Search</button><button type="submit">I'm Feeling Lucky</button></p>
-    </div>
-  </form>
-   
+  <main>
 
-</main>
+    <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    <form class="search">
+      <input type="text">
+      <div id="buttondiv">
+        <button type="submit">Google Search</button><button type="submit">I'm Feeling Lucky</button></p>
+      </div>
+    </form>
+
+  </main>
+  <footer>
+    <ul>
+      <a class="navbar" href="#">Advertising</a>
+      <a class="navbar" href="#">Business</a>
+      <a class="navbar" href="#">How Search Works</a>
+    </ul>
+    <ul>
+      <a class="navbar" href="#">Privacy</a>
+      <a class="navbar" href="#">Terms</a>
+      <a class="navbar" href="#">Settings</a>
+    </ul>
+  </footer>
 </body>
 
 </html>
